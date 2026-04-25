@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lab Analyzer</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<h1>💻 Lab Performance Analyzer</h1>
+
+<div class="form">
+    <input id="lab" placeholder="Lab Name">
+    <input id="device" placeholder="Device ID">
+    <input id="performance" type="number" placeholder="Performance (1-100)">
+    <button onclick="addData()">Add</button>
+</div>
+
+<h2>📊 Data</h2>
+<table>
+<thead>
+<tr>
+<th>Lab</th>
+<th>Device</th>
+<th>Performance</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody id="tableBody"></tbody>
+</table>
+
+<h2>📈 Analysis</h2>
+<p id="best"></p>
+<p id="worst"></p>
+
+<canvas id="chart"></canvas>
+
+<hr>
+
+<h2>🤖 Smart Assistant</h2>
+<div class="chat-box" id="chatBox"></div>
+
+<input id="userInput" placeholder="Describe problem...">
+<button onclick="sendMessage()">Send</button>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="mine.js/mine.js"></script>
+
+<script src="bootstrap.bundle.js"></script>
+</body>
+</html>
+
+
